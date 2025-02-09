@@ -139,3 +139,4 @@ if __name__ == "__main__":
     )
     time_without_numba = run(model, use_numba=False)
     print(f"Simulation time without Numba: {time_without_numba} seconds")
+    print(f"Simulation time difference: {time_without_numba-time_with_numba} seconds")

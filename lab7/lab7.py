@@ -18,7 +18,7 @@ initial_conditions = [S0, I0, R0]
 
 # parametry modelu
 beta = 0.3  # współczynnik przenoszenia infekcji
-gamma = 0.25  # współczynnik usuwania zainfekowanych
+gamma = 0.1  # współczynnik usuwania zainfekowanych
 
 # Czas symulacji w dniach
 t = np.linspace(0, 360, 360) # 360 dni co 1 dzien
