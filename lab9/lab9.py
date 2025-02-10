@@ -5,7 +5,7 @@ from bokeh.layouts import column
 import numpy as np
 from scipy.integrate import odeint
 
-#poetry run bokeh serve --show .\dashboard.py
+#poetry run bokeh serve --show .\lab9.py
 
 # S - susceptible, I - infected, R - removed
 def sir_model(y, t, beta, gamma):

@@ -84,10 +84,9 @@ class ModelIsinga():
         anim.save(os.path.join(self.outputfolder, self.filename_animation), writer='imagemagick')
         plt.close()
 
-# Example usage
 if __name__ == "__main__":
     model = ModelIsinga(
-        grid_size=128,
+        grid_size=56,
         J=1.0,
         beta=0.9,
         B=0.1,

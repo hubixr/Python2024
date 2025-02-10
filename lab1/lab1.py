@@ -113,5 +113,5 @@ def main():
 if __name__ == "__main__":
     main()
 
-########
+
 # Komenda do konsoli : poetry run python lab1.py xd.txt -l 20 -m 5 -i myśli -mi o -me w

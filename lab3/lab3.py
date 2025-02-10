@@ -21,7 +21,7 @@ def performance_tracker(func):
     }
     return wrapper
 
-# Przykładowa funkcja testowa
+# Funkcja testowa
 @performance_tracker
 def matrix_multiplication(size):
     A = np.random.rand(size, size)
